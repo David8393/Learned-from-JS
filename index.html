@@ -11,8 +11,7 @@
     <!-- The first thing -->
     <p id="demo">JavaScript can change HTML content.</p>
     <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
-</body>
-<script src="./index.js"></script>
+    <script src="./index.js"></script>
 <hr>
 <br>
 <p>JavaScript can change HTML attribute values.</p>
@@ -36,6 +35,14 @@
 <button type="button" onclick="document.getElementById('demo2').style.display='none'">Click me!</button>
 <hr>
 <br>
+<p>JavaScript can show hidden HTML elements.</p>
 
-</button>
+<p id="demo3" style="display:none">Hello JavaScript!</p>
+
+<button type="button" onclick="document.getElementById('demo3').style.display='block'">Click Me!</button>
+<hr>
+<br>
+
+</body>
+
 </html>

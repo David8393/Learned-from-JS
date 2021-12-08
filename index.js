@@ -7,3 +7,5 @@ function abs() {
   return a + b;
 };
 console.log(abs());
+
+document.write(5 + 6);

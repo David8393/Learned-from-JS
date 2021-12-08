@@ -8,4 +8,7 @@ function abs() {
 };
 console.log(abs());
 
-document.write(5 + 6);
+// document.write(5 + 6);
+
+document.write(6 / 6);
+

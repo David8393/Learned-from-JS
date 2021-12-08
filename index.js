@@ -10,5 +10,11 @@ console.log(abs());
 
 // document.write(5 + 6);
 
-document.write(6 / 6);
+document.write('this is the JavaScript code', 6 / 6);
+var btn = document.getElementById('btn')
+btn.onclick = function() {
+  document.write(5 + 6)
+  // console.log(btn);
+  
+}
 

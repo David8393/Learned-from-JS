@@ -27,6 +27,8 @@ points.sort(function (a, b) {
 });
 document.getElementById("demo6").innerHTML = points;
 
+////////////////////////////////////////////////////
+
 const points1 = ['webbrainacademy',  'academy',  'g2'];
 document.getElementById("demo7").innerHTML = points1;  
 

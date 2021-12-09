@@ -33,13 +33,15 @@ const points1 = ['webbrainacademy',  'academy',  'g2'];
 document.getElementById("demo7").innerHTML = points1;  
 
 points1.sort(function (a, b) {
-  return a.length - b.length
+  return b.length - a.length
 
 });
 document.getElementById("demo8").innerHTML = points1;
 
+
+
 // const points2 = ['webbrainacademy',  'academy',  'g2'];
-// document.getElementById("demo7").innerHTML = points2;  
+// document.getElementById("demo7").innerHTML = points2;
 
 // points2.sort()
 // document.getElementById("demo8").innerHTML = points2;
@@ -51,3 +53,4 @@ document.getElementById("demo8").innerHTML = points1;
 // }
 // }
 // console.log(arr);
+

@@ -14,17 +14,25 @@
 // a = b
 // b = c
 // console.log(a, b);
-var a = 15,
-    b = 10,
-    c = 5,
-    e = a,
-    t = b;
-    r = c;
+// var a = 15,
+//     b = 10,
+//     c = 5,
+//     e = a,
+//     t = b;
+//     r = c;
+// a = b
+// b = c
+// console.log(a, b, c);
+
+
+
+// var points1 = ['webbrainacademy', 'academy', 'g2xxxxxxxxxxxxxxxxxxxx'];
+// console.log(points1.sort((a,b) => b.length - a.length));
+
+var a = 10
+var b = 15
+var c = a
 a = b
 b = c
-console.log(a, b, c);
 
-
-
-var points1 = ['webbrainacademy', 'academy', 'g2xxxxxxxxxxxxxxxxxxxx'];
-console.log(points1.sort((a,b) => b.length - a.length));
+console.log(a, b);

@@ -29,10 +29,14 @@
 // var points1 = ['webbrainacademy', 'academy', 'g2xxxxxxxxxxxxxxxxxxxx'];
 // console.log(points1.sort((a,b) => b.length - a.length));
 
-var a = 10
-var b = 15
-var c = a
-a = b
-b = c
+// var a = 10
+// var b = 15
+// var c = a
+// a = b
+// b = c
 
-console.log(a, b);
+// console.log(a, b);
+
+// var str = 'azapaza'
+// console.log(/(a|A)za{}/);
+

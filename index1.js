@@ -24,8 +24,6 @@
 // b = c
 // console.log(a, b, c);
 
-
-
 // var points1 = ['webbrainacademy', 'academy', 'g2xxxxxxxxxxxxxxxxxxxx'];
 // console.log(points1.sort((a,b) => b.length - a.length));
 
@@ -40,3 +38,19 @@
 // var str = 'azapaza'
 // console.log(/(a|A)za{}/);
 
+// var points1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(points1.sort((a,b) => b.length - a.length));
+
+
+// const points = [40, 100, 1, 5, 25, 10];
+// points.sort(function (a, b) {
+    //   return a - b
+    // });
+    // console.log(points);
+    
+    var point = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    point.sort(function(a, b) {
+      return b - a;
+        console.log(b.length - a.length);
+    });
+    console.log(point);
